@@ -8,12 +8,13 @@ Damiano Carboni 13/12/2024
 using namespace std;
 int main()
 {
-  int i=10 ,n;
+  int i = 0 ,n; //il contatore deve partire da 0
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
   while (i<n)
   {
-   cout<<"Bada come la fuma"<<endl; 
+    i++;        //il contatore si deve incrementare ogni volta
+    cout<<"Bada come la fuma"<<endl; 
   }
   system("pause");
 }
